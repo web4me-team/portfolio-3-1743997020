@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>MAR KA TER (MKT)'s Personal Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/be6d9fdd26.js" crossorigin="anonymous"></script>
+    <link href='https://fonts.googleapis.com/css?family=Arbutus Slab' rel='stylesheet'>
+</head>
+<body>
+    <header>
+        <nav class="menu-bar">
+            <div class="container">
+                <ul class="menu">
+                    <li><a href="#" onclick="showSection('profile')">Home</a></li>
+                    <li><a href="#" onclick="showSection('education')">Education</a></li>
+                    <li><a href="#" onclick="showSection('work')">Work Experience</a></li>
+                    <li><a href="#" onclick="showSection('skills')">Skills&Interests</a></li>
+                    <li><a href="#" onclick="showSection('projects')">Projects</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="profile">
+            <div class="profile-pic">
+              <img src="profile/3.svg" alt="MAR KA TER (MKT)" style="width: 250px; height: auto; max-width: 100%; border-radius: 50%;">
+            </div>
+            <div class="right-section">
+              <div class="intro-text">
+                <p>H<span id="typing-text"></span></p>
+                <h1>MAR KA TER (MKT)</h1>
+              </div>
+              <div class="profile-card">
+                <p class="summary">
+                    A dedicated marketing professional with a strong background in business administration and analytics. Proven track record in conducting market research, developing consumer strategies, and leading successful marketing initiatives. Demonstrated leadership in fundraising and consulting, with a commitment to service and cultural education.
+                </p>
+              </div>
+            </div>
+          </section>
+        <div class="contacts">
+            <a href="mailto:marketer@andrew.cmu.edu" aria-label="Email"><i class="fa-solid fa-envelope fa-lg"></i></a>
+            <a href="tel:+14125555555" aria-label="Phone"><i class="fa-solid fa-phone fa-lg"></i></a>
+        </div>
+        <section id="education" class="hidden">
+            <h2 class="section-title">Education</h2>
+            <div class="content-container">
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-date">May 20xx</div>
+                        <div class="timeline-content">
+                            <h3>Bachelor of Science in Business Administration</h3>
+                            <span>Carnegie Mellon University | Tepper School of Business<br></span>
+                            <p>Field: Marketing and Business Analytics</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="work" class="hidden">
+            <h2>Work Experience</h2>
+            <div class="content-container">
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-date">Mar 20xx – Present</div>
+                        <div class="timeline-content">
+                            <h3>On-Site Business Intern</h3>
+                            <span>Office Depot<br></span>
+                            <p>Conducted marketing research to determine interest level in Office Depot and diagnose consumer pain points and used findings to develop strategies to increase interest through events and promotions. Spearheaded initiative to make Office Depot primary provider of office supplies to CMU, segmenting their market into 5 distinct consumer groups on campus to better target their approach. Created and implemented pilot student program featuring corporate-level discounts and free next-day shipping for Carnegie Mellon University students, with potential for program to be expanded to universities nationwide.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">Jun 20xx – Aug 20xx</div>
+                        <div class="timeline-content">
+                            <h3>Consumer Operations Intern</h3>
+                            <span>Google, Inc.<br></span>
+                            <p>Developed consumer strategy through collaboration with marketing and engineering teams to reorganize and renovate help centers for all Google products, resulting in improved user experience for monthly average of 150,000,000 unique visitors. Implemented strategy on test center that receives 430,000 monthly unique visitors and advised on analysis of results via 5 distinct contrived metrics based on Google analytics. Led training sessions and formulated detailed and priority-ordered calendar of action items for next 2 quarters, instructing all help center content editors and stakeholders in implementing new strategy by quarter 4.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">Jun 20xx – Aug 20xx</div>
+                        <div class="timeline-content">
+                            <h3>Marketing and Sales Intern</h3>
+                            <span>PUMA Time<br></span>
+                            <p>Helped to coordinate and market PUMA City, one of PUMA’s flagship events during 20xx World Cup, through design of events, social media networking, and collaboration with Macy’s for in-store and street campaigns. Proposed new style of watch by analyzing merchandising reviews, consumer responses, and current trends; received favorable feedback from marketing management, and proposal was passed to senior management. Created weekly national sales analysis reports and merchandising reviews to determine and optimize performance of 20 new styles of PUMA watches.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="hidden">
+            <h2>Skills & Interests</h2>
+            <div class="skills-grid">
+              <div class="skill-item">
+                <i class="fa-solid fa-chart-line"></i>
+                <span>Microsoft Excel</span>
+              </div>
+              <div class="skill-item">
+                <i class="fa-solid fa-chart-line"></i>
+                <span>Microsoft PowerPoint</span>
+              </div>
+              <div class="skill-item">
+                <i class="fa-solid fa-chart-line"></i>
+                <span>Adobe Photoshop</span>
+              </div>
+              <div class="skill-item">
+                <i class="fa-solid fa-chart-line"></i>
+                <span>Minitab</span>
+              </div>
+              <div class="skill-item">
+                <i class="fa-solid fa-chart-line"></i>
+                <span>Qualtrics</span>
+              </div>
+              <div class="skill-item">
+                <i class="fa-solid fa-chart-line"></i>
+                <span>SPSS</span>
+              </div>
+              <div class="skill-item">
+                <i class="fa-solid fa-chart-line"></i>
+                <span>Python</span>
+              </div>
+            </div>
+          </section>
+
+        <section id="projects" class="hidden">
+            <h2>Projects</h2>
+            <div class="carousel-wrapper">
+              <div class="projects-container">
+                <div class="project-card">
+                  <h3>Supply Chain Optimization</h3>
+                  <span class="project-date">2021</span>
+                  <p>Identified inefficiencies in logistics and transportation processes; implemented data-driven improvements; reduced operational costs by 20% through supplier negotiations.</p>
+                  <div class="techniques">
+                    <span class="technique-tag">Supply Chain Management</span>
+                    <span class="technique-tag">Cost Optimization</span>
+                    <span class="technique-tag">Data Analysis</span>
+                  </div>
+                </div>
+                <div class="project-card">
+                  <h3>Market Analysis for Startup Launch</h3>
+                  <span class="project-date">2019</span>
+                  <p>Compiled a comprehensive CSR report that analyzed the company’s sustainability practices and offered recommendations for enhancing social and environmental performance. Enhanced stakeholder communication; boosted the company’s sustainability profile through strategic recommendations; improved overall corporate responsibility.</p>
+                  <div class="techniques">
+                    <span class="technique-tag">Market Research</span>
+                    <span class="technique-tag">Data Analysis</span>
+                    <span class="technique-tag">Business Strategy</span>
+                  </div>
+                </div>
+                <div class="project-card">
+                  <h3>AI Chatbot Integration</h3>
+                  <span class="project-date">March 2025</span>
+                  <p>Engineered and deployed an AI-powered chatbot to enhance customer support, leveraging machine learning and natural language processing for real-time query resolution. Developed a responsive conversational chatbot; significantly reduced customer response times; improved overall customer satisfaction.</p>
+                  <div class="techniques">
+                    <span class="technique-tag">AI</span>
+                    <span class="technique-tag">Machine Learning</span>
+                    <span class="technique-tag">NLP</span>
+                    <span class="technique-tag">Python</span>
+                  </div>
+                </div>
+              </div>
+              <button class="carousel-control prev" onclick="prevSlide()">&#10094;</button>
+              <button class="carousel-control next" onclick="nextSlide()">&#10095;</button>
+            </div>
+        </section>
+    </main>
+
+    <button class="theme-toggle" onclick="toggleTheme()"><i class="fa-solid fa-moon fa-lg"></i></button>
+
+    <script>
+        function toggleTheme() {
+            const body = document.body;
+            body.classList.toggle('dark');
+
+            const button = document.querySelector('.theme-toggle');
+            button.innerHTML = body.classList.contains('dark')
+                ? '<i class="fa-solid fa-sun fa-lg"></i>'
+                : '<i class="fa-solid fa-moon fa-lg"></i>';
+        }
+
+        function showSection(id) {
+            document.querySelectorAll('main section').forEach(s => s.classList.add('hidden'));
+            document.getElementById(id).classList.remove('hidden');
+        }
+
+        showSection('profile');
+        const text = "ello, I'm";
+        const typingText = document.getElementById('typing-text');
+        let index = 0;
+        let isDeleting = false;
+
+        function typeEffect() {
+            if (isDeleting) {
+                typingText.innerText = text.substring(0, index--);
+            } else {
+                typingText.innerText = text.substring(0, index++);
+            }
+            let speed = isDeleting ? 75 : 150;
+            if (!isDeleting && index === text.length + 1) {
+                speed = 1200;
+                isDeleting = true;
+            } else if (isDeleting && index === 0) {
+                isDeleting = false;
+                speed = 500;
+            }
+            setTimeout(typeEffect, speed);
+        }
+        typeEffect();
+
+        document.querySelectorAll('.timeline-item').forEach(item => {
+            item.addEventListener('mouseenter', function () {
+                document.querySelectorAll('.timeline-item.active').forEach(activeItem => {
+                    if (activeItem !== this) {
+                        activeItem.classList.remove('active');
+                    }
+                });
+                this.classList.add('active');
+            });
+
+            item.addEventListener('click', function () {
+                document.querySelectorAll('.timeline-item').forEach(i => i.classList.remove('active'));
+                this.classList.add('active');
+            });
+        });
+
+        let currentSlide = 0;
+        const slides = document.querySelectorAll('.project-card');
+        const totalSlides = slides.length;
+
+        function updateCarousel() {
+            const container = document.querySelector('.projects-container');
+            container.style.transform = `translateX(-${currentSlide * 100}%)`;
+        }
+
+        function nextSlide() {
+            if (currentSlide < totalSlides - 1) {
+            currentSlide++;
+            updateCarousel();
+            }
+        }
+
+        function prevSlide() {
+            if (currentSlide > 0) {
+            currentSlide--;
+            updateCarousel();
+            }
+        }
+        document.addEventListener('DOMContentLoaded', updateCarousel);
+    </script>
+</body>
+</html>
